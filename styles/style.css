@@ -1,0 +1,27 @@
+body {
+  background: pink; }
+  body .header {
+    background: aqua; }
+    @media screen and (max-width: 1024px) {
+      body .header {
+        background: #fff; } }
+    body .header .navbar {
+      background: grey;
+      display: inline-block; }
+      body .header .navbar .navbar-ul {
+        display: flex; }
+        body .header .navbar .navbar-ul li {
+          font-size: 16px;
+          color: black;
+          list-style: none;
+          margin: 10px; }
+          body .header .navbar .navbar-ul li:nth-child(2) {
+            color: #fff; }
+    body .header .burger {
+      display: none; }
+    body .header:hover {
+      background: black; }
+  body section .box {
+    height: 200px;
+    width: 200px;
+    background: yellow; }
